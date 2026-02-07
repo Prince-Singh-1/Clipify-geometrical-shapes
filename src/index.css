@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.sidebar{
+  width:20vw;
+}
+
+
+.clip-wrapper{
+  width:140px;
+  height: 110px;
+}
+
+
+
+/* @media screen and (max-width:850px){ */
+  .main{
+    /* margin-left:unset ; */
+    width:100vw;
+  }
+  .sidebar{
+    width: 100vw;
+  }
+/* } */
+
+@media screen and (min-width:800px){
+
+  .main{
+    width:80vw;
+    margin-left:24vw ;
+    
+  }
+  .sidebar{
+    width: unset;
+  }
+}
